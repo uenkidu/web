@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>任务</title>
+<style type="text/css">
+	span{color: red;}
+	*{font-size: 12px;}	
+	label{
+		cursor: pointer;
+		display: inline-block;
+		padding: 6px 10px;
+		text-align: right;
+		width: 100px;
+		vertical-align: top;
+	}
+    select{position:relative;
+    	font-size:12px;
+    	width:157.6px;
+    	height:19.6px;
+}
+span1{
+	color: rgba(200,159,91);
+}
+.stress{cursor:pointer;
+    width:107px; 
+    height:23px; 
+    border:0px;
+    background-color: rgb(241,132,10);
+    color: white ;
+    display: block;
+    color: 
+    width: 6%;
+    margin-left: 150px;
+ }
+</style>
+</head>
+<body>
+<form>
+	<label for="male"><span>*</span>姓名:</label>
+    <input type="text" name="myname"  />
+    </label>
+    <span1>
+    	(姓名填写规则)
+    </span1><br />
+    <label for="male"><span>*</span>性别:</label>
+    <lab for="male"></lab>
+    <input type="radio" name="gender" id="male" />男
+    <lab for="female"></lab>
+    <input type="radio" name="gender" id="female" />女
+    <br />
+    <label for="country"><span>*</span>国家/地区:</label>
+    <select>
+  	  <option value="中国CHINA">中国CHINA</option>
+    </select><br />
+    <label for="type"><span>*</span>证件类型:</label>
+    <select>
+      <option value="二代身份证">二代身份证</option>
+    </select><br>
+    <label for="number"><span>*</span>证件号码:</label>
+    <input type="txet" name="number">
+    <br>
+    <label for="time"><span>*</span>出生日期：</label>
+    <input type="text" name="time" placeholder="2019-03-15">
+    <br>
+    <label for="email"><span>*</span>邮箱：</label>
+    <input type="text" name="email">
+    <span1>
+    	请正确填写常用邮箱地址，默认使用邮箱接收铁路客户服务信息
+    </span1>
+    <br>
+    <label for="phonenumber"><span>*</span>手机号码：</label>
+    <input type="text" name="phonenumber">
+    <br>
+    <label for="phone">固定电话：</label>
+    <input type="text" name="phone">
+    <br>
+    <label for="adress">地址：</label>
+    <input type="text" name="adress">
+    <br>
+    <label for="P.C.">固定电话：</label>
+    <input type="text" name="P.C.">
+    <br>
+    <br>
+    <hr style="height:1px;border:none;border-top:1px dashed #666;">
+    <br>
+    <label for="type"><span>*</span>旅客类型:</label>
+    <select>
+       <option value="成人">成人</option>
+       <option value="学生">学生</option>
+    </select><br>
+    <br>
+    <input class="stress" type="submit" value="下一步" >
+</form>
+</body>
+</html>
