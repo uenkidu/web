@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>计时返回页面</title>
+	<script type="text/javascript">
+		var num=5;
+		setInterval(function sTime(){
+			
+			var sec=document.getElementById('count');
+			num--;
+			sec.innerHTML=num;
+			if (num==0) {
+				window.open('https://www.imooc.com/','_self');
+			}}
+			,1000);
+		function goback(){
+			window.history.go(-1);
+		}
+	</script>
+</head>
+<body>
+	<p  >
+		<b id="count">5</b>秒后回到主页 <a href="javascript:goback()">返回</a>
+	</p>
+</body>
+</html>
